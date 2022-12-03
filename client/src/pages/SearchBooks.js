@@ -92,7 +92,7 @@ const SearchBooks = () => {
   };
 
   return (
-    <>
+    <div>
       <Jumbotron fluid className='text-light bg-dark'>
         <Container>
           <h1>Search for Books!</h1>
@@ -151,7 +151,7 @@ const SearchBooks = () => {
           })}
         </CardColumns>
       </Container>
-    </>
+    </div>
   );
 };
 
