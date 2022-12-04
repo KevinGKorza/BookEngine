@@ -6,7 +6,7 @@ type Query {
   }
 
   type User {
-    _id: ID
+    _id: ID!
     username: String
     email: String
     bookCount: Int
@@ -33,7 +33,7 @@ type Query {
 
   type Auth {
     token: ID!
-    profile: User
+    user: User
   }
 
   type Mutation {
