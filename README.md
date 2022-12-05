@@ -45,6 +45,10 @@ Screen captures:
 
 <img width="1689" alt="Screen Shot 2022-12-05 at 4 57 48 PM" src="https://user-images.githubusercontent.com/107637260/205752033-948a29ba-2b03-4a60-b6ee-ce5cbf3d508e.png">
 
+<img width="1697" alt="Screen Shot 2022-12-05 at 5 10 04 PM" src="https://user-images.githubusercontent.com/107637260/205753564-bcd9049b-f53d-4e73-90ae-b7a58ba46971.png">
+
+<img width="1697" alt="Screen Shot 2022-12-05 at 5 10 21 PM" src="https://user-images.githubusercontent.com/107637260/205753579-99858e7d-a709-45ca-a27c-aead10a58b94.png">
+
 <img width="1700" alt="Screen Shot 2022-12-05 at 4 58 25 PM" src="https://user-images.githubusercontent.com/107637260/205752049-cf7d19a3-9a97-4061-87af-24074f7c8d5c.png">
 
 <img width="1014" alt="Screen Shot 2022-12-05 at 4 59 38 PM" src="https://user-images.githubusercontent.com/107637260/205752062-d405ef4b-bb18-4718-9b58-df99ebbb68ba.png">
