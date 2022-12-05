@@ -79,8 +79,9 @@ const SearchBooks = () => {
 
       //Mutation
       await saveSelectedBook({
-        variables: { saveBook }
+        variables: { savedBook: {...bookToSave} }
       })
+     
 
     
 

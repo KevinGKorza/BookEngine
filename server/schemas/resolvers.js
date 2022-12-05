@@ -40,7 +40,7 @@ const resolvers = {
         //save book mutation
         saveBook: async (parent, {book}, context) => {
             if (context.user){
-                const addBook = await User.findBtIdAndUpdate(
+                const addBook = await User.findByIdAndUpdate(
                     {_id: context.user._id},
                     {$addToSet: {savedBooks: book}},
                     {new: true}
@@ -52,7 +52,7 @@ const resolvers = {
         //remove book mutation
         removeBook: async (parent, args, context) => {
             if (context.user) {
-                const removeBook = await User.findBtIdAndUpdate(
+                const removeBook = await User.findByIdAndUpdate(
                     {_id: context.user._id},
                     {$pull: {savedBooks:{bookId: bookId}}},
                     {new: true}

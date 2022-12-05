@@ -16,13 +16,13 @@ type Query {
   type Book {
     bookId: String
     authors: [String]
-    decription: String
+    description: String
     title: String
-    Image: String
+    image: String
     link: String
   }
 
-  input BookInput {
+  input bookInput {
     bookId: String
     authors: [String]
     description: String
@@ -39,7 +39,7 @@ type Query {
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    saveBook(savedBook: BookInput!): User
+    saveBook(savedBook: bookInput!): User
     removeBook(bookId: String!): User
   }
 `;
